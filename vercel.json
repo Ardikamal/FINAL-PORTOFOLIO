@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "buildCommand": null,
+  "outputDirectory": "public",
+  "routes": [
+    {
+      "src": "/images/(.*)",
+      "dest": "/images/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
